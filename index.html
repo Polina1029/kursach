@@ -84,7 +84,7 @@
         <div class="container">
             <div class="banner_info">
                 <p class="banner_txt">Укажем направление к вашему идеальному пространству!</p>
-                <a href="#" class="btn_blue">Найти недвижимость</a>
+                <a href="catalog.html" class="btn_blue">Найти недвижимость</a>
             </div>
         </div>
     </div>
@@ -99,55 +99,40 @@
             <p class="info">Наведи на фото и узнай информацию про квартиры в центра города.</p>
         </div>
 
+        <div class="the_best_cards">
 
-            <div class="the_best_cards">
-                <div class="the_best_card">
-                    <img src="assets/images/the_best/1.png" alt="">
-                    <div class="information_best">
-                        <p class="name_best">ЖК «Эталон»</p>
-                        <p class="adress_best">улица Марселя Салимжанова, 15/8Б</p>
-                        <p class="price_best">квартиры <br><span>от 8 000 000 ₽</span></p>
-                        <a href="catalog.html" class="btn_border">Подробнее</a>
-                    </div>
-                </div>
-            
-                <div class="the_best_card">
-                    <img src="assets/images/the_best/2.png" alt="">
-                    <div class="information_best">
-                        <p class="name_best">ЖК «Аристократ»</p>
-                        <p class="adress_best">Спартаковская улица, 43В</p>
-                        <p class="price_best">квартиры <br> <span>от 10 000 000 ₽</span></p>
-                        <a href="catalog.html" class="btn_border">Подробнее</a>
-                    </div>
-                </div>
-            
-                <div class="the_best_card">
-                    <img src="assets/images/the_best/3.png" alt="">
-                    <div class="information_best">
-                        <p class="name_best">ЖК «Лазурь»</p>
-                        <p class="adress_best">улица Волкова, 32</p>
-                        <p class="price_best">квартиры <br><span>от 9 000 000 ₽</span></p>
-                        <a href="catalog.html" class="btn_border">Подробнее</a>
-                    </div>
-                </div>
+            <div class="the_best_card clickable">
+                <img src="assets/images/the_best/1.png" alt="">
 
-            <script>
-                document.addEventListener("DOMContentLoaded", () => {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("active");
-            }
-        });
-    }, {
-        threshold: 0.5, // Активируется, когда 50% элемента видно
-    });
+                <div class="information_best">
+                    <p class="name_best">ЖК «Эталон»</p>
+                    <p class="adress_best">улица Марселя Салимжанова, 15/8Б</p>
+                    <p class="price_best">квартиры <br><span>от 8 000 000 ₽</span></p>
+                    <a href="catalog.html" class="btn_border">Подробнее</a>
+                </div>
+            </div>
 
-    // Находим все карточки
-    const cards = document.querySelectorAll(".the_best_card");
-    cards.forEach((card) => observer.observe(card));
-});
-            </script>
+            <div class="the_best_card clickable">
+                <img src="assets/images/the_best/2.png" alt="">
+
+                <div class="information_best">
+                    <p class="name_best">ЖК «Аристократ»</p>
+                    <p class="adress_best">Спартаковская улица, 43В</p>
+                    <p class="price_best">квартиры <br> <span>от 10 000 000 ₽</span></p>
+                    <a href="catalog.html" class="btn_border">Подробнее</a>
+                </div>
+            </div>
+
+            <div class="the_best_card clickable">
+                <img src="assets/images/the_best/3.png" alt="">
+
+                <div class="information_best">
+                    <p class="name_best">ЖК «Лазурь»</p>
+                    <p class="adress_best">улица Волкова, 32</p>
+                    <p class="price_best">квартиры <br><span>от 9 000 000 ₽</span></p>
+                    <a href="catalog.html" class="btn_border">Подробнее</a>
+                </div>
+            </div>
 
 
         </div>
