@@ -513,6 +513,12 @@ header nav a:hover {
     cursor: pointer;
 }
 
+.banner_tel .btn_blue:hover {
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 /* banner end */
 
 
