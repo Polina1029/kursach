@@ -1871,6 +1871,10 @@ select {
     margin-bottom: 20px;
 }
 
+.add_admin .img3:hover {
+    box-shadow: none;
+}
+
 .btn_cancel_delete_photo,
 .btn_confirm_delete_photo {
     width: 100%;
@@ -4260,6 +4264,12 @@ select {
 
     .img2_3 img {
         width: 137px;
+        height: 100%;
+    }
+
+
+    .card_img img {
+        width: 143px;
         height: 100%;
     }
 
